@@ -1,4 +1,4 @@
-# pc
+# element UI + vue
 
 ## Project setup
 ```
