@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+@import './element-ui-vars.scss';
+@import '~element-ui/packages/theme-chalk/src/index';
+@import './element-ui-resets.scss';
+
+.pre-text {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+  border-radius: 20px;
+}

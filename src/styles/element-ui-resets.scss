@@ -1,0 +1,76 @@
+.el-dialog {
+  border-radius: 6px;
+
+  .el-dialog__header {
+    padding: 0 26px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    border-bottom: 1px solid $--border-color-base;
+
+    .el-dialog__headerbtn {
+      top: 16px;
+      right: 26px;
+    }
+  }
+
+  .el-dialog__footer {
+    height: 60px;
+    padding: 0 26px;
+    border-top: 1px solid $--border-color-base;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+.el-table {
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
+  border-top: 1px solid #e6e6e6;
+
+  .el-table-column--selection > .cell {
+    padding-left: 14px !important;
+  }
+
+  thead {
+    color: #333333;
+
+    th {
+      background-color: #fafafa;
+    }
+  }
+
+  tbody {
+    color: #666666;
+
+    > tr {
+      > td {
+        &.title {
+          color: #b02027;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  td,
+  th {
+    padding: 8px 0;
+  }
+
+  .el-table-column--selection .cell {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: rgba(206, 0, 0, 0.05);
+}
+
+.el-loading-mask {
+  z-index: 19;
+}

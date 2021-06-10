@@ -1,0 +1,18 @@
+$header-height: 64px;
+$header-color: #333;
+$header-color-active: #e9463d;
+$header-bg-color: #fff;
+
+$aside-width: 240px;
+$aside-width-collapsed: $header-height;
+$aside-collapse-duration: 0.3s ease-in-out;
+
+$aside-menu-item-height: 52px;
+$aside-menu-item-icon-color: #999;
+$aside-menu-item-title-color: #333;
+$aside-menu-item-title-color-light: #666;
+$aside-menu-item-title-color-active: #e9463d;
+$aside-menu-item-active-indicator-color: rgba(233, 70, 61, 1);
+$aside-menu-item-bg-color-active: rgba(233, 70, 61, 0.1);
+$aside-menu-divider-color: #f0f0f0;
+$aside-menu-popup-bg-color: #fff;
